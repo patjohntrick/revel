@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Bantayog";
+  src: url(/resources/fonts/Bantayog-Light.otf);
+}
+@font-face {
+  font-family: "Vietnam";
+  src: url(/resources/fonts/BeVietnam-Thin.ttf);
+}
+@font-face {
+  font-family: "Glacial";
+  src: url(/resources/fonts/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: "ABeeZee";
+  src: url(/resources/fonts/ABeeZee-Regular.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/resources/background\ pages/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* NAVIGATION */
+nav {
+  min-height: 90px;
+  display: flex;
+  /* align-items: center; */
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+nav .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+nav .logo-container {
+  width: 70px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+nav .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+nav .logo-container .about-nav {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Glacial";
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #e28f0f;
+}
+/* NAVIGATION */
+
+/* SECTION */
+section {
+  padding-top: 100px;
+  position: relative;
+}
+
+section .section-container {
+  width: 100%;
+  /* min-height: 100vh; */
+}
+
+section .img-container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+section .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .location {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  transform: translate(-25%, -15%);
+}
+
+section .location {
+  text-align: center;
+}
+section .location .location-name {
+  font-size: 22px;
+  font-family: "Glacial";
+  color: #982d01;
+  font-weight: 600;
+}
+
+section .location .from {
+  font-family: "Glacial";
+  font-size: 15px;
+  color: #300f06;
+}
+
+section .text-container {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+}
+
+section .text-container .top-text {
+  margin-bottom: 140px;
+}
+section .text-container .desc {
+  font-family: "ABeeZee";
+  font-size: 22;
+  color: #e2c498;
+  width: 250px;
+}
+
+section .text-container .highlights {
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  font-size: 49px;
+}
+
+/* section .text-container .links{
+    position: absolute;
+    border: 1px solid cyan;
+    
+} */
+section .text-container .links .link-item {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+section .text-container .links .link-item p {
+  font-family: "Bantayog";
+  font-size: 16px;
+  color: #fffbcc;
+}
+section .text-container .links .link-item img {
+  width: 20px;
+}

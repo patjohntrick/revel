@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Bantayog";
+  src: url(/resources/fonts/Bantayog-Light.otf);
+}
+@font-face {
+  font-family: "Vietnam";
+  src: url(/resources/fonts/BeVietnam-Thin.ttf);
+}
+@font-face {
+  font-family: "Glacial";
+  src: url(/resources/fonts/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: "ABeeZee";
+  src: url(/resources/fonts/ABeeZee-Regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVIGATION */
+nav {
+  min-height: 90px;
+  display: flex;
+  /* align-items: center; */
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+nav .logo-container {
+  width: 70px;
+}
+
+nav .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Glacial";
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #e28f0f;
+}
+/* NAVIGATION */
+
+/* HERO */
+section {
+  height: 100vh;
+  overflow-y: hidden;
+  position: relative;
+}
+section .img-container {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid cyan; */
+}
+section .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+section .logo-container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  z-index: 50;
+}
+
+section .text-container p {
+  color: #e28f0f;
+  font-size: 22px;
+  font-family: "Vietnam";
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+section .logo-container a {
+  display: grid;
+  place-items: center;
+}
+section .logo-container img {
+  width: 150px;
+  margin-top: 30px;
+}
+
+/* HERO */

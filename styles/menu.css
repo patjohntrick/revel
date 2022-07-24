@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Bantayog";
+  src: url(/resources/fonts/Bantayog-Light.otf);
+}
+@font-face {
+  font-family: "Vietnam";
+  src: url(/resources/fonts/BeVietnam-Thin.ttf);
+}
+@font-face {
+  font-family: "Glacial";
+  src: url(/resources/fonts/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: "ABeeZee";
+  src: url(/resources/fonts/ABeeZee-Regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/resources/background\ pages/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* NAVIGATION */
+nav {
+  min-height: 90px;
+  display: flex;
+  /* align-items: center; */
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+nav .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+nav .logo-container {
+  width: 70px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+nav .logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Glacial";
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #e28f0f;
+}
+/* NAVIGATION */
+
+/* SECTION */
+.first-section {
+  padding-top: 90px;
+}
+
+.first-section .carousel {
+  width: 1000px;
+  margin: 20px auto 30px;
+}
+
+.first-section .carousel p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "Glacial";
+  color: #e12108;
+  font-weight: bold;
+}
+.first-section .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.first-section .container .box {
+  width: 200px;
+  height: 120px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.first-section .container .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.first-section .container img {
+  width: 25px;
+  height: 20px;
+}
+
+.first-section .container .first-arrow {
+  transform: rotate(90deg);
+}
+
+.first-section .container .second-arrow {
+  transform: rotate(270deg);
+}
+
+/* SECTION */
+
+/* SECTION */
+.second-section {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+}
+
+.second-section .menu-container {
+  width: 1000px;
+  background-color: #e28f0f;
+  border-radius: 30px;
+  box-shadow: 10px 10px 2px #300f06;
+  margin: auto;
+}
+
+.second-section .title-container {
+  margin: 20px 0;
+}
+.second-section .title {
+  font-family: "Bantayog";
+  color: #300f06;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.second-section .active {
+  background-color: #300f0642;
+  color: #fffbcc;
+}
+
+.second-section .title:hover {
+  background-color: #300f0642;
+  color: #fffbcc;
+}
+
+.second-section .menu-container {
+  display: grid;
+  place-items: start;
+  padding: 30px;
+  gap: 20px;
+  grid-template-columns: 20% 80%;
+}
+
+.second-section .menu-data {
+  border-left: 2px solid #300f068a;
+  min-height: 400px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  place-content: start;
+}
+
+.second-section .container {
+  display: flex;
+  min-width: 350px;
+  height: 100px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.second-section .container .img-container {
+  width: 90px;
+  height: 90px;
+  background-color: #e12108;
+  border-radius: 50%;
+}
+
+.second-section .container .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.second-section .container .text-container p {
+  font-family: "Glacial";
+  color: #300f06;
+}
+
+.second-section .menu-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.second-section .price img {
+  width: 0px;
+  object-fit: cover;
+}
+
+.second-section .price {
+  display: flex;
+  align-items: center;
+}
+.second-section .price img {
+  width: 25px;
+}
