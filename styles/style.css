@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Bantayog";
-  src: url(/resources/fonts/Bantayog-Light.otf);
+  src: url("../resources/fonts/Bantayog-Light.otf");
 }
 @font-face {
   font-family: "Vietnam";
-  src: url(/resources/fonts/BeVietnam-Thin.ttf);
+  src: url("../resources/fonts/BeVietnam-Thin.ttf");
 }
 @font-face {
   font-family: "Glacial";
-  src: url(/resources/fonts/GlacialIndifference-Regular.otf);
+  src: url("../resources/fonts/GlacialIndifference-Regular.otf");
 }
 @font-face {
   font-family: "ABeeZee";
-  src: url(/resources/fonts/ABeeZee-Regular.otf);
+  src: url("../resources/fonts/ABeeZee-Regular.otf");
 }
 * {
   margin: 0;

@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Bantayog";
-  src: url(/resources/fonts/Bantayog-Light.otf);
+  src: url(../resources/fonts/Bantayog-Light.otf);
 }
 @font-face {
   font-family: "Vietnam";
-  src: url(/resources/fonts/BeVietnam-Thin.ttf);
+  src: url(../resources/fonts/BeVietnam-Thin.ttf);
 }
 @font-face {
   font-family: "Glacial";
-  src: url(/resources/fonts/GlacialIndifference-Regular.otf);
+  src: url(../resources/fonts/GlacialIndifference-Regular.otf);
 }
 @font-face {
   font-family: "ABeeZee";
-  src: url(/resources/fonts/ABeeZee-Regular.otf);
+  src: url(../resources/fonts/ABeeZee-Regular.otf);
 }
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 * {
@@ -23,7 +23,7 @@
 
 body {
   min-height: 100vh;
-  background-image: url("/resources/background\ pages/bg.png");
+  background-image: url(../resources/background\ pages/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
