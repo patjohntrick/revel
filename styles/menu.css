@@ -161,15 +161,42 @@ nav a:hover {
   cursor: pointer;
 }
 
-.second-section .active {
+/* .second-section .active {
+} */
+
+/* click event */
+.second-section .pizza.active,
+.second-section .pancit.active,
+.second-section .sizzlers.active,
+.second-section .home-made.active,
+.second-section .meryenda.active,
+.second-section .shawarma.active {
   background-color: #300f0642;
   color: #fffbcc;
 }
 
-.second-section .pizza.testing {
-  background-color: transparent;
-  color: #300f06;
+.second-section .title-container .subheading {
+  font-family: "Glacial";
+  font-size: 14.8px;
+  color: #982d01;
+  margin-left: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+  display: none;
 }
+
+.second-section .pancit-title .subheading.active,
+.second-section .sizzlers-title .subheading.active,
+.second-section .pizza-title .subheading.active {
+  display: block;
+}
+
+/* click event */
+
+.second-section .subheading p {
+  margin: 10px 0;
+}
+
 .second-section .title:hover {
   background-color: #300f0642;
   color: #fffbcc;
