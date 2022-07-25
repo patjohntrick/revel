@@ -112,3 +112,15 @@ section .logo-container img {
 }
 
 /* HERO */
+
+/* 1024px responsive */
+@media screen and (max-width: 1024px) {
+  nav .nav-container {
+    width: 900px;
+  }
+  section .logo-container {
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+  }
+}

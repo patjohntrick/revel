@@ -212,7 +212,9 @@ nav a:hover {
   gap: 20px;
   grid-template-columns: 20% 80%;
 }
-
+.second-section p {
+  word-break: break-all;
+}
 /* click event */
 .second-section .pizza-menu-data.active,
 .second-section .pancit-menu-data.active,
@@ -283,4 +285,17 @@ nav a:hover {
 }
 .second-section .price img {
   width: 25px;
+}
+
+/* 1024px responsive */
+@media screen and (max-width: 1024px) {
+  nav .nav-container {
+    width: 900px;
+  }
+  .first-section .carousel {
+    width: 920px;
+  }
+  .second-section .menu-container {
+    width: 900px;
+  }
 }

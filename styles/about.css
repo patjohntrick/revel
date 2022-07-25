@@ -171,3 +171,16 @@ section .text-container .links .link-item p {
 section .text-container .links .link-item img {
   width: 20px;
 }
+
+/* 1024px responsive */
+@media screen and (max-width: 1024px) {
+  nav .nav-container {
+    width: 900px;
+  }
+  section .text-container {
+    top: 10%;
+  }
+  section .text-container .top-text {
+    margin-bottom: 100px;
+  }
+}
