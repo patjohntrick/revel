@@ -187,7 +187,10 @@ nav a:hover {
 
 .second-section .pancit-title .subheading.active,
 .second-section .sizzlers-title .subheading.active,
-.second-section .pizza-title .subheading.active {
+.second-section .pizza-title .subheading.active,
+.second-section .home-made-title .subheading.active,
+.second-section .meryenda-title .subheading.active,
+.second-section .shawarma-title .subheading.active {
   display: block;
 }
 
@@ -210,7 +213,13 @@ nav a:hover {
   grid-template-columns: 20% 80%;
 }
 
-.second-section .menu-data {
+/* click event */
+.second-section .pizza-menu-data.active,
+.second-section .pancit-menu-data.active,
+.second-section .sizzlers-menu-data.active,
+.second-section .home-made-menu-data.active,
+.second-section .meryenda-menu-data.active,
+.second-section .shawarma-menu-data.active {
   border-left: 2px solid #300f068a;
   min-height: 400px;
   padding-left: 20px;
@@ -219,6 +228,16 @@ nav a:hover {
   gap: 10px;
   place-content: start;
 }
+
+.second-section .pizza-menu-data,
+.second-section .pancit-menu-data,
+.second-section .sizzlers-menu-data,
+.second-section .home-made-menu-data,
+.second-section .meryenda-menu-data,
+.second-section .shawarma-menu-data {
+  display: none;
+}
+/* click event */
 
 .second-section .container {
   display: flex;
