@@ -170,7 +170,8 @@ nav a:hover {
 .second-section .sizzlers.active,
 .second-section .home-made.active,
 .second-section .meryenda.active,
-.second-section .shawarma.active {
+.second-section .shawarma.active,
+.second-section .other-meals.active {
   background-color: #300f0642;
   color: #fffbcc;
 }
@@ -326,11 +327,11 @@ nav a:hover {
   font-family: "Glacial";
 }
 
-.second-section .menu .other-meals-title p {
+/* .second-section .menu .other-meals-title p {
   color: #fffbcc;
   font-size: 25px;
   font-weight: bold;
-}
+} */
 
 /* 1024px responsive */
 @media screen and (max-width: 1024px) {
