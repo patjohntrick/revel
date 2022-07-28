@@ -190,7 +190,8 @@ nav a:hover {
 .second-section .pizza-title .subheading.active,
 .second-section .home-made-title .subheading.active,
 .second-section .meryenda-title .subheading.active,
-.second-section .shawarma-title .subheading.active {
+.second-section .shawarma-title .subheading.active,
+.second-section .other-meals-title .subheading.active {
   display: block;
 }
 
@@ -221,7 +222,8 @@ nav a:hover {
 .second-section .sizzlers-menu-data.active,
 .second-section .home-made-menu-data.active,
 .second-section .meryenda-menu-data.active,
-.second-section .shawarma-menu-data.active {
+.second-section .shawarma-menu-data.active,
+.second-section .other-meals-menu-data.active {
   border-left: 2px solid #300f068a;
   min-height: 400px;
   padding-left: 20px;
@@ -236,7 +238,8 @@ nav a:hover {
 .second-section .sizzlers-menu-data,
 .second-section .home-made-menu-data,
 .second-section .meryenda-menu-data,
-.second-section .shawarma-menu-data {
+.second-section .shawarma-menu-data,
+.second-section .other-meals-menu-data {
   display: none;
 }
 /* click event */
@@ -285,6 +288,48 @@ nav a:hover {
 }
 .second-section .price img {
   width: 25px;
+}
+.second-section .menu-container .pancit-menu-data .text-container .menu-name,
+.second-section .menu-container .shawarma-menu-data .text-container .menu-name,
+.second-section
+  .menu-container
+  .other-meals-menu-data
+  .text-container
+  .menu-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.second-section .menu-container .pancit-menu-data .text-container,
+.second-section .menu-container .shawarma-menu-data .text-container {
+  width: 250px;
+}
+
+.second-section .menu-container .other-meals-menu-data .text-container {
+  width: 280px;
+}
+
+.second-section .menu-container .pancit-menu-data .text-container:first-child,
+.second-section .menu-container .shawarma-menu-data .text-container:first-child,
+.second-section
+  .menu-container
+  .other-meals-menu-data
+  .text-container:first-child {
+  margin-right: 100px;
+}
+
+.second-section .menu-container .pancit-menu-data .text-container p,
+.second-section .menu-container .shawarma-menu-data .text-container p,
+.second-section .menu-container .other-meals-menu-data .text-container p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: "Glacial";
+}
+
+.second-section .menu .other-meals-title p {
+  color: #fffbcc;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /* 1024px responsive */

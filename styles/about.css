@@ -176,7 +176,7 @@ section .text-container .links .link-item img {
 @media screen and (max-width: 1024px) {
   nav .nav-container {
     width: 900px;
-  }
+  
   section .text-container {
     top: 10%;
   }
